@@ -1,0 +1,16 @@
+track_id,track_name,location,length_km,turns,type,weather_conditions
+1,Austria,Austria,4.318,10,Road Course,Dry
+2,Brazil,Brazil,4.309,15,Road Course,Dry
+3,Canada,Canada,4.361,14,Road Course,Wet
+4,China,China,5.451,16,Road Course,Dry
+5,France,France,5.842,15,Road Course,Wet
+6,Germany,Germany,5.148,17,Road Course,Dry
+7,Hungary,Hungary,4.381,14,Road Course,Dry
+8,Italy,Italy,5.793,11,Road Course,Dry
+9,Japan,Japan,5.807,18,Road Course,Wet
+10,Monaco,Monaco,3.337,19,Street Circuit,Dry
+11,Russia,Russia,5.848,18,Road Course,Dry
+12,Spain,Spain,4.655,16,Road Course,Dry
+13,UK,UK,5.891,18,Road Course,Wet
+14,USA,USA,5.513,20,Road Course,Dry
+15,Suzuka,Japan,5.807,18,Road Course,Wet

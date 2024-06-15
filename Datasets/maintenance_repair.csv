@@ -1,0 +1,151 @@
+vehicle_id,maintenance_date,repair_type,parts_replaced,mechanic_id,cost
+1,2023-09-29,Oil Change,"Engine, Transmission, Brakes, Suspension, Tires",6,2725.72
+1,2023-07-17,Suspension Repair,"Engine, Tires, Oil Filter, Brakes, Transmission, Suspension",8,3712.41
+1,2023-10-29,Tire Replacement,"Suspension, Oil Filter, Brakes",8,4298.68
+2,2023-12-27,Transmission Repair,"Tires, Brakes, Engine, Transmission",6,1258.3
+2,2023-08-13,Transmission Repair,"Tires, Transmission, Engine, Oil Filter, Brakes, Suspension",4,2980.74
+2,2023-06-17,Engine Overhaul,"Tires, Suspension",9,4967.45
+2,2023-02-20,Transmission Repair,"Oil Filter, Transmission, Tires, Engine",2,941.63
+3,2023-10-19,Engine Overhaul,Transmission,2,3914.6
+3,2023-10-19,Tire Replacement,Suspension,7,2044.61
+3,2023-01-12,Transmission Repair,"Brakes, Oil Filter",7,3798.6
+4,2023-01-04,Transmission Repair,"Suspension, Oil Filter, Transmission, Brakes",7,1635.11
+5,2023-12-21,Oil Change,"Oil Filter, Suspension, Engine, Brakes",9,1036.76
+5,2023-06-17,Suspension Repair,"Oil Filter, Brakes, Tires, Transmission",3,3666.95
+5,2023-10-18,Transmission Repair,"Suspension, Transmission, Tires, Oil Filter, Brakes",5,3078.55
+5,2023-03-19,Engine Overhaul,"Suspension, Engine",5,2597.3
+5,2023-09-28,Brake Replacement,"Tires, Oil Filter, Transmission, Brakes",3,4436.99
+6,2023-10-19,Engine Overhaul,"Tires, Brakes, Engine",6,1675.17
+6,2023-06-27,Engine Overhaul,"Engine, Oil Filter, Transmission, Tires, Suspension, Brakes",1,3793.51
+7,2023-07-01,Suspension Repair,"Tires, Suspension",9,1297.67
+7,2023-06-04,Transmission Repair,Transmission,3,1575.48
+7,2023-12-17,Transmission Repair,"Engine, Transmission, Brakes",9,3742.57
+8,2023-07-02,Suspension Repair,"Engine, Suspension, Transmission",1,3082.06
+9,2023-08-10,Brake Replacement,"Oil Filter, Transmission, Tires, Suspension, Brakes",6,648.64
+9,2023-05-04,Brake Replacement,"Oil Filter, Suspension, Engine",7,636.51
+9,2023-06-01,Oil Change,"Oil Filter, Transmission, Engine, Suspension, Tires",8,3643.57
+10,2023-11-10,Suspension Repair,"Transmission, Oil Filter, Engine, Tires, Suspension, Brakes",9,3290.75
+10,2023-12-17,Tire Replacement,"Oil Filter, Brakes, Tires",8,1833.42
+10,2023-02-19,Brake Replacement,"Transmission, Brakes, Engine",10,3724.32
+11,2023-12-02,Tire Replacement,"Oil Filter, Brakes, Suspension",3,3879.27
+12,2023-08-08,Engine Overhaul,"Tires, Suspension, Transmission, Engine, Brakes, Oil Filter",3,584.97
+12,2023-12-16,Suspension Repair,Transmission,10,3351.37
+12,2023-09-14,Suspension Repair,"Oil Filter, Transmission, Tires",5,905.76
+12,2023-04-10,Suspension Repair,"Oil Filter, Tires, Engine, Brakes, Transmission",2,1994.31
+12,2023-06-17,Brake Replacement,"Tires, Suspension",6,1578.87
+13,2023-11-22,Brake Replacement,Brakes,6,855.8
+13,2023-08-14,Transmission Repair,"Transmission, Oil Filter, Tires, Engine, Brakes, Suspension",3,4201.72
+13,2023-06-15,Transmission Repair,"Oil Filter, Transmission, Brakes, Engine, Suspension, Tires",9,2103.18
+13,2023-03-18,Suspension Repair,"Transmission, Tires, Brakes, Suspension, Engine, Oil Filter",2,2458.6
+14,2023-04-20,Engine Overhaul,Engine,5,4531.68
+14,2023-03-19,Tire Replacement,"Brakes, Engine, Transmission, Tires",3,1205.5
+14,2023-09-28,Transmission Repair,"Brakes, Engine, Suspension, Oil Filter, Tires, Transmission",2,4944.61
+14,2023-11-14,Tire Replacement,"Tires, Engine",9,969.31
+14,2023-07-31,Suspension Repair,"Transmission, Tires, Suspension",6,4920.05
+15,2023-05-19,Brake Replacement,"Brakes, Tires",9,2038.84
+15,2023-03-18,Engine Overhaul,"Brakes, Transmission, Engine, Suspension",6,4173.37
+15,2023-11-10,Suspension Repair,"Transmission, Oil Filter, Engine, Tires, Suspension, Brakes",2,3840.09
+15,2023-12-27,Tire Replacement,"Suspension, Transmission, Oil Filter, Engine, Tires",9,2116.85
+15,2023-08-09,Tire Replacement,"Brakes, Oil Filter, Engine, Suspension, Transmission, Tires",10,3230.27
+16,2023-09-15,Engine Overhaul,"Brakes, Transmission, Oil Filter, Tires",10,4872.14
+16,2023-03-30,Suspension Repair,"Oil Filter, Transmission",1,735.85
+16,2023-08-13,Tire Replacement,"Transmission, Tires, Suspension, Brakes, Engine, Oil Filter",4,4912.93
+16,2023-10-07,Oil Change,"Suspension, Transmission, Brakes, Oil Filter, Engine, Tires",2,4318.69
+16,2023-05-18,Suspension Repair,Oil Filter,3,3639.83
+17,2023-10-03,Oil Change,"Tires, Engine, Brakes, Oil Filter",7,4253.88
+18,2023-03-28,Engine Overhaul,"Tires, Transmission, Engine, Oil Filter, Suspension",9,2569.18
+18,2023-07-28,Brake Replacement,"Brakes, Tires, Engine, Oil Filter",8,1388.75
+18,2023-10-29,Brake Replacement,"Suspension, Oil Filter, Engine, Tires, Brakes, Transmission",4,3016.49
+18,2023-03-26,Engine Overhaul,"Engine, Suspension, Transmission",4,2633.99
+19,2023-05-27,Brake Replacement,"Tires, Engine",5,4168.28
+19,2023-10-27,Suspension Repair,"Transmission, Suspension",8,784.25
+19,2023-12-19,Oil Change,"Brakes, Suspension",4,2058.7
+20,2023-07-31,Transmission Repair,"Brakes, Engine, Suspension, Oil Filter",8,4532.85
+20,2023-02-20,Suspension Repair,"Oil Filter, Brakes, Suspension, Engine",10,867.07
+20,2023-08-05,Engine Overhaul,"Suspension, Oil Filter, Engine",9,2189.2
+20,2023-11-08,Engine Overhaul,"Tires, Transmission, Brakes",6,4425.99
+21,2023-04-02,Oil Change,"Brakes, Suspension, Tires",6,561.63
+21,2023-10-26,Suspension Repair,Oil Filter,4,4136.72
+21,2023-11-09,Suspension Repair,"Brakes, Tires",4,2607.23
+22,2023-05-08,Transmission Repair,"Engine, Transmission, Suspension, Oil Filter, Brakes",3,3659.01
+22,2023-03-17,Transmission Repair,Transmission,4,2064.76
+22,2023-09-02,Oil Change,"Engine, Tires, Suspension, Transmission",4,742.0
+22,2023-03-28,Transmission Repair,"Tires, Engine, Brakes, Oil Filter",1,4645.34
+23,2023-05-27,Transmission Repair,Tires,4,757.89
+24,2023-05-28,Brake Replacement,"Engine, Oil Filter, Transmission, Brakes, Suspension, Tires",6,3965.69
+24,2023-07-22,Brake Replacement,"Tires, Suspension, Engine",10,2071.98
+25,2023-01-14,Oil Change,Oil Filter,2,4866.01
+25,2023-11-28,Tire Replacement,"Tires, Suspension, Transmission, Brakes, Engine",10,4268.86
+25,2023-04-27,Transmission Repair,"Oil Filter, Tires, Suspension",5,3083.19
+25,2023-12-07,Suspension Repair,"Suspension, Oil Filter, Tires",1,2981.5
+25,2023-09-27,Transmission Repair,"Oil Filter, Tires, Transmission",10,3684.77
+26,2023-09-14,Brake Replacement,Brakes,1,2654.29
+26,2023-04-03,Oil Change,Oil Filter,1,4249.49
+27,2023-04-30,Transmission Repair,"Tires, Engine",5,1189.7
+27,2023-06-06,Oil Change,Brakes,2,3229.08
+27,2023-04-09,Transmission Repair,"Suspension, Oil Filter",10,2076.54
+27,2023-07-05,Brake Replacement,"Brakes, Engine",10,1564.02
+28,2023-01-20,Suspension Repair,"Engine, Brakes, Suspension, Tires, Transmission, Oil Filter",7,2967.76
+29,2023-11-05,Brake Replacement,"Tires, Transmission, Engine, Oil Filter, Brakes, Suspension",4,4848.08
+29,2023-07-03,Brake Replacement,"Transmission, Engine, Tires, Brakes",3,2585.77
+29,2023-05-19,Engine Overhaul,Suspension,3,3977.05
+30,2023-12-07,Oil Change,"Transmission, Suspension, Engine, Brakes",3,1959.07
+30,2023-10-02,Brake Replacement,"Engine, Brakes, Oil Filter, Tires, Transmission",5,1066.87
+30,2023-11-19,Transmission Repair,"Tires, Suspension, Brakes",7,3340.23
+30,2023-09-17,Tire Replacement,"Transmission, Engine, Tires, Oil Filter, Brakes",8,1389.17
+30,2023-02-07,Transmission Repair,"Transmission, Brakes, Oil Filter",4,3980.44
+31,2023-08-13,Tire Replacement,Engine,10,1668.22
+32,2023-09-01,Engine Overhaul,Suspension,3,996.7
+33,2023-02-15,Brake Replacement,"Oil Filter, Transmission, Brakes, Suspension, Tires, Engine",6,610.46
+33,2023-05-08,Suspension Repair,"Suspension, Tires, Oil Filter",9,3793.47
+33,2023-03-26,Brake Replacement,"Tires, Transmission, Suspension, Brakes",3,4868.2
+33,2023-08-07,Transmission Repair,"Tires, Oil Filter, Engine",2,4386.64
+33,2023-02-06,Engine Overhaul,"Engine, Oil Filter, Suspension, Brakes",9,1605.03
+34,2023-07-02,Tire Replacement,"Transmission, Tires, Oil Filter",3,1368.3
+34,2023-10-19,Oil Change,"Engine, Brakes, Suspension, Tires",7,2245.05
+34,2023-11-16,Transmission Repair,Oil Filter,2,2254.54
+34,2023-12-18,Oil Change,"Tires, Oil Filter, Suspension, Engine",6,1886.42
+35,2023-03-05,Brake Replacement,"Suspension, Tires, Transmission, Engine, Oil Filter, Brakes",2,2619.94
+35,2023-12-05,Engine Overhaul,"Brakes, Tires, Transmission, Oil Filter, Suspension",2,2869.36
+35,2023-01-27,Suspension Repair,"Transmission, Tires, Suspension, Engine",8,1327.07
+35,2023-03-29,Oil Change,"Brakes, Suspension, Oil Filter, Engine",2,3503.56
+35,2023-02-07,Transmission Repair,"Brakes, Oil Filter",8,1974.79
+36,2023-08-23,Brake Replacement,"Brakes, Transmission, Oil Filter",9,3450.85
+36,2023-05-26,Suspension Repair,"Transmission, Tires, Engine, Oil Filter, Brakes",2,4643.86
+36,2023-03-14,Suspension Repair,"Tires, Transmission",4,2260.6
+36,2023-04-08,Suspension Repair,"Oil Filter, Tires, Transmission, Brakes, Suspension, Engine",4,4985.05
+37,2023-06-18,Tire Replacement,"Tires, Suspension",1,4871.78
+37,2023-08-05,Suspension Repair,"Suspension, Oil Filter, Brakes, Engine, Tires",4,2765.66
+37,2023-03-19,Transmission Repair,"Transmission, Engine, Oil Filter",1,4167.01
+38,2023-08-02,Tire Replacement,"Tires, Suspension, Oil Filter, Engine, Transmission, Brakes",6,2765.35
+39,2023-08-14,Suspension Repair,"Oil Filter, Suspension, Engine",4,1378.2
+39,2023-03-07,Oil Change,Tires,2,3090.01
+40,2023-03-06,Transmission Repair,"Transmission, Brakes, Oil Filter, Suspension",1,1900.14
+40,2023-06-28,Tire Replacement,"Engine, Transmission, Oil Filter, Tires, Brakes, Suspension",6,2155.06
+41,2023-08-26,Engine Overhaul,"Oil Filter, Suspension",5,4192.33
+41,2023-03-19,Suspension Repair,"Suspension, Engine, Brakes, Oil Filter, Transmission",6,4066.82
+42,2023-10-03,Engine Overhaul,"Brakes, Transmission, Oil Filter",3,4684.57
+42,2023-05-11,Engine Overhaul,"Transmission, Tires, Engine, Brakes, Oil Filter, Suspension",10,4098.88
+42,2023-03-06,Brake Replacement,Suspension,4,4817.16
+42,2023-12-19,Engine Overhaul,"Transmission, Tires, Suspension, Engine, Brakes",1,2081.59
+43,2023-06-08,Tire Replacement,"Oil Filter, Engine, Tires, Transmission, Brakes",4,525.03
+43,2023-06-02,Engine Overhaul,Suspension,3,3094.14
+44,2023-07-13,Suspension Repair,Oil Filter,7,2946.9
+45,2023-06-01,Transmission Repair,Brakes,2,1970.95
+45,2023-06-29,Suspension Repair,"Brakes, Suspension",3,3020.48
+45,2023-03-19,Brake Replacement,Brakes,8,3024.46
+46,2023-07-12,Tire Replacement,"Suspension, Transmission, Tires, Oil Filter, Engine",7,747.66
+46,2023-06-05,Tire Replacement,"Transmission, Oil Filter, Tires, Suspension, Engine",3,2683.23
+46,2023-07-24,Engine Overhaul,"Tires, Engine, Oil Filter, Transmission",3,4277.29
+47,2023-01-26,Engine Overhaul,"Tires, Transmission, Brakes",1,1166.72
+47,2023-10-07,Engine Overhaul,"Transmission, Tires, Oil Filter, Suspension, Engine",3,4445.91
+48,2023-05-23,Tire Replacement,"Engine, Brakes",1,2759.27
+48,2023-11-16,Oil Change,Suspension,2,2089.47
+48,2023-04-17,Suspension Repair,"Suspension, Tires, Transmission, Brakes, Oil Filter",2,807.57
+49,2023-12-14,Engine Overhaul,"Suspension, Engine, Tires, Oil Filter",3,1810.5
+49,2023-01-02,Suspension Repair,"Tires, Brakes",3,3249.54
+49,2023-10-19,Tire Replacement,"Engine, Tires, Brakes, Transmission, Oil Filter",3,2970.04
+50,2023-10-25,Engine Overhaul,"Suspension, Tires, Brakes, Oil Filter, Engine, Transmission",6,2597.01
+50,2023-06-06,Suspension Repair,Suspension,8,1068.78
+50,2023-09-08,Brake Replacement,"Suspension, Brakes, Engine, Oil Filter",9,2861.81
+50,2023-08-19,Engine Overhaul,"Suspension, Brakes, Oil Filter, Engine, Tires, Transmission",4,2787.78

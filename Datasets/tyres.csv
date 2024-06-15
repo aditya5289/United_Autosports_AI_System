@@ -1,0 +1,10 @@
+tyre_id,tyre_compound,manufacturer,performance_rating,durability_rating
+1,Soft,Pirelli,9,6
+2,Soft,Michelin,9,6
+3,Soft,Bridgestone,9,6
+4,Medium,Pirelli,7,8
+5,Medium,Michelin,7,8
+6,Medium,Bridgestone,7,8
+7,Hard,Pirelli,5,10
+8,Hard,Michelin,5,10
+9,Hard,Bridgestone,5,10

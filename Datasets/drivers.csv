@@ -1,0 +1,21 @@
+driver_id,name,team,experience_level,age,nationality
+1,Driver 1,Team A,Expert,23,Spain
+2,Driver 2,Team B,Intermediate,25,Brazil
+3,Driver 3,Team A,Novice,28,Japan
+4,Driver 4,United Autosports,Expert,25,Japan
+5,Driver 5,Team A,Novice,21,Germany
+6,Driver 6,Team A,Expert,22,France
+7,Driver 7,Team B,Expert,32,Germany
+8,Driver 8,Team A,Intermediate,20,Japan
+9,Driver 9,Team B,Intermediate,27,France
+10,Driver 10,United Autosports,Intermediate,27,Brazil
+11,Driver 11,Team A,Expert,25,UK
+12,Driver 12,Team C,Expert,31,France
+13,Driver 13,Team A,Novice,37,Japan
+14,Driver 14,Team C,Novice,20,UK
+15,Driver 15,Team C,Novice,40,UK
+16,Driver 16,Team B,Expert,37,Brazil
+17,Driver 17,Team C,Novice,33,Germany
+18,Driver 18,Team B,Expert,30,Brazil
+19,Driver 19,Team C,Intermediate,37,Germany
+20,Driver 20,Team B,Intermediate,37,Spain
