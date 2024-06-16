@@ -1,8 +1,16 @@
 import React from 'react';
-import { Container, Typography, Box } from '@mui/material';
-//import myImage from './assets/f1-car.jpg'; // Adjust the path according to your file structure
+import { Container, Typography, Box, Button, Grid } from '@mui/material';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFlagCheckered, faInfoCircle, faTachometerAlt } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 function HomePage() {
+  const navigate = useNavigate();
+
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
+
   return (
     <Container maxWidth="md">
       <Box textAlign="center" my={4}>
@@ -12,12 +20,41 @@ function HomePage() {
         <Typography variant="h5" component="p" paragraph>
           Dive into the world of Formula 1 and explore comprehensive details about your favorite racing machines.
         </Typography>
-        <Typography variant="body1" component="p" paragraph>
-          Get the latest updates on F1 cars, their specifications, performance metrics, and much more. Whether you're a hardcore fan or a casual enthusiast, we have something for everyone.
-        </Typography>
-        {/* <Box display="flex" justifyContent="center" my={4}>
-          <img src={myImage} alt="F1 Car" style={{ maxWidth: '100%', height: 'auto' }} />
-        </Box> */}
+        <Grid container spacing={3} justifyContent="center" my={4}>
+          <Grid item>
+            <Button
+              variant="contained"
+              color="primary"
+              startIcon={<FontAwesomeIcon icon={faFlagCheckered} />}
+              onClick={() => handleNavigation('/LiveMonitoring')}
+              style={{ fontSize: '16px', padding: '10px 20px' }}
+            >
+              Live Monitoring
+            </Button>
+          </Grid>
+          <Grid item>
+            <Button
+              variant="contained"
+              color="secondary"
+              startIcon={<FontAwesomeIcon icon={faInfoCircle} />}
+              onClick={() => handleNavigation('/Vehiclepartinfo')}
+              style={{ fontSize: '16px', padding: '10px 20px' }}
+            >
+              Vehicle Part Info
+            </Button>
+          </Grid>
+          <Grid item>
+            <Button
+              variant="contained"
+              color="success"
+              startIcon={<FontAwesomeIcon icon={faTachometerAlt} />}
+              onClick={() => handleNavigation('/Recordchange')}
+              style={{ fontSize: '16px', padding: '10px 20px' }}
+            >
+              Record Change
+            </Button>
+          </Grid>
+        </Grid>
         <Typography variant="body1" component="p" paragraph>
           Stay tuned for race schedules, team updates, and in-depth analysis. Join our community of F1 fans and share your passion for the fastest cars on the planet.
         </Typography>

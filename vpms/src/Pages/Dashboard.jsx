@@ -1,36 +1,27 @@
 // Dashboard.jsx
-
 import React, { useState } from 'react';
-import CustomNavbar from '../Components/CustomNavbar';
-import Sidebar from '../Components/Sidebar';
-import Footer from '../Components/Footer';
+import Recordchange from '../Components/Recordchange';
+import LiveMonitoring from '../Components/LiveMonitoring';
 
 const Dashboard = () => {
-  const [activeTab, setActiveTab] = useState('Dashboard');
-
-  const handleTabChange = (tab) => {
-    setActiveTab(tab);
-  };
+  const [chartData, setChartData] = useState({
+    Partname: '',
+    PartType: '',
+    Company: ''
+  });
 
   return (
-    <div>
-      <CustomNavbar />
-      <div className="container-fluid" style={{ marginTop: '56px' }}> {/* Adjust margin-top to accommodate Navbar height */}
-        <div className="row">
-          <div className="col-2">
-            <Sidebar onTabChange={handleTabChange} />
-          </div>
-          <div className="col-10">
-            <div className="p-4">
-              <h1>{activeTab}</h1>
-              <p>Content for {activeTab} goes here.</p>
-            </div>
-          </div>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-6">
+          <Recordchange setChartData={setChartData} />
+        </div>
+        <div className="col-md-6">
+          <LiveMonitoring chartData={chartData} />
         </div>
       </div>
-      <Footer />
     </div>
   );
-}
+};
 
 export default Dashboard;

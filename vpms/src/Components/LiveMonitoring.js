@@ -68,14 +68,24 @@ function LiveMonitoring() {
     setWarningState(hasWarning);
   };
 
-  // Function to get background color based on data values
-  const getBackgroundColor = (data) => {
-    return data.map(value => value >= 50 ? 'rgba(75, 192, 192, 0.6)' : 'rgba(255, 99, 132, 0.6)');
+  // Function to get background color based on labels
+  const getBackgroundColor = () => {
+    return [
+      'rgba(75, 192, 192, 0.6)',  // Good
+      'rgba(255, 205, 86, 0.6)',  // Average
+      'rgba(255, 159, 64, 0.6)',  // Poor
+      'rgba(255, 99, 132, 0.6)'   // Very Poor
+    ];
   };
 
-  // Function to get border color based on data values
-  const getBorderColor = (data) => {
-    return data.map(value => value >= 50 ? 'rgba(75, 192, 192, 1)' : 'rgba(255, 99, 132, 1)');
+  // Function to get border color based on labels
+  const getBorderColor = () => {
+    return [
+      'rgba(75, 192, 192, 1)',    // Good
+      'rgba(255, 205, 86, 1)',    // Average
+      'rgba(255, 159, 64, 1)',    // Poor
+      'rgba(255, 99, 132, 1)'     // Very Poor
+    ];
   };
 
   // Options for the charts
@@ -144,12 +154,8 @@ function LiveMonitoring() {
                   data: selectedTier === 'Tier1' ? tier1Data : 
                         selectedTier === 'Tier2' ? tier2Data : 
                         selectedTier === 'Tier3' ? tier3Data : tier4Data,
-                  backgroundColor: getBackgroundColor(selectedTier === 'Tier1' ? tier1Data : 
-                                                          selectedTier === 'Tier2' ? tier2Data : 
-                                                          selectedTier === 'Tier3' ? tier3Data : tier4Data),
-                  borderColor: getBorderColor(selectedTier === 'Tier1' ? tier1Data : 
-                                              selectedTier === 'Tier2' ? tier2Data : 
-                                              selectedTier === 'Tier3' ? tier3Data : tier4Data),
+                  backgroundColor: getBackgroundColor(),
+                  borderColor: getBorderColor(),
                   borderWidth: 1,
                 },
               ],

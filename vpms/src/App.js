@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-import logo from './logo.svg';
 //import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-=======
+import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
@@ -10,7 +7,6 @@ import LiveMonitoring from './Components/LiveMonitoring';
 import Recordchange from './Components/Recordchange';
 import Vehiclepartinfo from './Components/Vehiclepartinfo';
 import HomePage from './Components/HomePage';
->>>>>>> origin/main
 
 function App() {
   return (

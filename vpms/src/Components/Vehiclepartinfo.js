@@ -8,27 +8,29 @@ function Vehiclepartinfo() {
             <div className="row">
               <div className="col-md-6">
                 <ul className="list-group list-group-flush">
+                <li className="list-group-item d-flex justify-content-between align-items-center">
+                    <strong>Product:</strong>
+                    <span>Tire</span>
+                  </li>
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     <strong>Manufacturer:</strong>
-                    <span>ABC Motors</span>
+                    <span>Pirelli</span>
                   </li>
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     <strong>Model:</strong>
-                    <span>XYZ-2000</span>
+                    <span>P Zero</span>
                   </li>
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     <strong>Type:</strong>
-                    <span>V6 Petrol</span>
+                    <span>Soft</span>
                   </li>
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     <strong>Capacity:</strong>
-                    <span>3.0 Liters</span>
+                    <span>Maximum grip, less durability</span>
                   </li>
                 </ul>
               </div>
-              <div className="col-md-6">
-                <img src="https://via.placeholder.com/300" className="img-fluid rounded" alt="Engine" />
-              </div>
+              
             </div>
           </div>
         </div>
