@@ -1,0 +1,20 @@
+
+.sidebar {
+  width: 250px;
+  background-color: #444647;
+  color: rgb(184, 178, 178);
+  height: calc(100vh - 56px); 
+  position: fixed;
+  top: 56px; 
+  left: 0;
+  bottom: 0;
+  overflow-y: auto; 
+  color: white;
+}
+.sidebar h4 {
+  color: white;
+}
+.sidebar .btn {
+  margin-bottom: 10px;
+  text-align: left;
+}
